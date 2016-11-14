@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!DOCTYPE periodicT [
+ <!ELEMENT periodicT (elements+)>
+ <!ELEMENT elements EMPTY>
+  <!ATTLIST elements symbol CDATA #REQUIRED>
+  <!ATTLIST elements name CDATA #REQUIRED>
+  <!ATTLIST elements number CDATA #REQUIRED>
+  <!ATTLIST elements group
+    (1族|2族|3族|4族|5族|6族|7族|8族|9族|10族|11族|12族|13族|14族|15族|16族|17族|18族) #REQUIRED>
+  <!ATTLIST elements period
+    (周期1|周期2|周期3|周期4|周期5|周期6|周期7) #REQUIRED>
+  <!ATTLIST elements noid
+    (ランタノイド|アクチノイド) #IMPLIED>
+]>
+
+<periodicT>
+<elements symbol="H" name="水素" number="1"
+          group="1族" period="周期1"/>
+<elements symbol="He" name="ヘリウム" number="2" 
+          group="18族" period="周期1"/>
+
+<elements symbol="Li" name="リチウム" number="3" 
+          group="1族" period="周期2"/>
+<elements symbol="Be" name="ベリリウム" number="4" 
+          group="2族" period="周期2"/>
+<elements symbol="B" name="ホウ素" number="5" 
+          group="13族" period="周期2"/>
+<elements symbol="C" name="炭素" number="6" 
+          group="14族" period="周期2"/>
+<elements symbol="N" name="窒素" number="7" 
+          group="15族" period="周期2"/>
+<elements symbol="O" name="酸素" number="8" 
+          group="16族" period="周期2"/>
+<elements symbol="F" name="フッ素" number="9" 
+          group="17族" period="周期2"/>
+<elements symbol="Ne" name="ネオン" number="10" 
+          group="18族" period="周期2"/>
+
+<elements symbol="Na" name="ナトリウム" number="11" 
+          group="1族" period="周期3"/>
+<elements symbol="Mg" name="マグネシウム" number="12" 
+          group="2族" period="周期3"/>
+<elements symbol="Al" name="アルミニウム" number="13" 
+          group="13族" period="周期3"/>
+<elements symbol="Si" name="ケイ素" number="14" 
+          group="14族" period="周期3"/>
+<elements symbol="P" name="リン" number="15" 
+          group="15族" period="周期3"/>
+<elements symbol="S" name="硫黄" number="16" 
+          group="16族" period="周期3"/>
+<elements symbol="Cl" name="塩素" number="17" 
+          group="17族" period="周期3"/>
+<elements symbol="Ar" name="アルゴン" number="18" 
+          group="18族" period="周期3"/>
+
+<elements symbol="K" name="カリウム" number="19" 
+          group="1族" period="周期4"/>
+<elements symbol="Ca" name="カルシウム" number="20" 
+          group="2族" period="周期4"/>
+<elements symbol="Sc" name="スカンジウム" number="21" 
+          group="3族" period="周期4"/>
+<elements symbol="Ti" name="チタニウム" number="22" 
+          group="4族" period="周期4"/>
+<elements symbol="V" name="バナジウム" number="23" 
+          group="5族" period="周期4"/>
+<elements symbol="Cr" name="クロム" number="24" 
+          group="6族" period="周期4"/>
+<elements symbol="Mn" name="マンガン" number="25" 
+          group="7族" period="周期4"/>
+<elements symbol="Fe" name="鉄" number="26" 
+          group="8族" period="周期4"/>
+<elements symbol="Co" name="コバルト" number="27" 
+          group="9族" period="周期4"/>
+<elements symbol="Ni" name="ニッケル" number="28" 
+          group="10族" period="周期4"/>
+<elements symbol="Cu" name="銅" number="29" 
+          group="11族" period="周期4"/>
+<elements symbol="Zn" name="亜鉛" number="30" 
+          group="12族" period="周期4"/>
+<elements symbol="Ga" name="ガリウム" number="31" 
+          group="13族" period="周期4"/>
+<elements symbol="Ge" name="ゲルマニウム" number="32" 
+          group="14族" period="周期4"/>
+<elements symbol="As" name="ヒ素" number="33" 
+          group="15族" period="周期4"/>
+<elements symbol="Se" name="セレン" number="34" 
+          group="16族" period="周期4"/>
+<elements symbol="Br" name="臭素" number="35" 
+          group="17族" period="周期4"/>
+<elements symbol="Kr" name="クリプトン" number="36" 
+          group="18族" period="周期4"/>
+
+<elements symbol="Rb" name="ルビジウム" number="37" 
+          group="1族" period="周期5"/>
+<elements symbol="Sr" name="ストロンチウム" number="38" 
+          group="2族" period="周期5"/>
+<elements symbol="Y" name="イットリウム" number="39" 
+          group="3族" period="周期5"/>
+<elements symbol="Zr" name="ジルコニウム" number="40" 
+          group="4族" period="周期5"/>
+<elements symbol="Nb" name="ニオブ" number="41" 
+          group="5族" period="周期5"/>
+<elements symbol="Mo" name="モリブデン" number="42" 
+          group="6族" period="周期5"/>
+<elements symbol="Tc" name="テクネチウム" number="43" 
+          group="7族" period="周期5"/>
+<elements symbol="Ru" name="ルテニウム" number="44" 
+          group="8族" period="周期5"/>
+<elements symbol="Rh" name="ロジウム" number="45" 
+          group="9族" period="周期5"/>
+<elements symbol="Pd" name="パラジウム" number="46" 
+          group="10族" period="周期5"/>
+<elements symbol="Ag" name="銀" number="47" 
+          group="11族" period="周期5"/>
+<elements symbol="Cd" name="カドミウム" number="48" 
+          group="12族" period="周期5"/>
+<elements symbol="In" name="インジウム" number="49" 
+          group="13族" period="周期5"/>
+<elements symbol="Sn" name="スズ" number="50" 
+          group="14族" period="周期5"/>
+<elements symbol="Sb" name="アンチモン" number="51" 
+          group="15族" period="周期5"/>
+<elements symbol="Te" name="テルル" number="52" 
+          group="16族" period="周期5"/>
+<elements symbol="I" name="ヨウ素" number="53" 
+          group="17族" period="周期5"/>
+<elements symbol="Xe" name="キセノン" number="54" 
+          group="18族" period="周期5"/>
+
+<elements symbol="Cs" name="セシウム" number="55" 
+          group="1族" period="周期6"/>
+<elements symbol="Ba" name="バリウム" number="56" 
+          group="2族" period="周期6"/>
+
+<elements symbol="La" name="ランタン" number="57" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Ce" name="セリウム" number="58" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Pr" name="プラセオジム" number="59" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Nd" name="ネオジム" number="60" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Pm" name="プロメチウム" number="61" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Sm" name="サマリウム" number="62" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Eu" name="ユウロピウム" number="63" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Gd" name="ガドリニウム" number="64" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Tb" name="テルビウム" number="65" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Dy" name="ジスプロシウム" number="66" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Ho" name="ホルミウム" number="67" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Er" name="エルビウム" number="68" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Tm" name="ツリウム" number="69" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Yb" name="イッテルビウム" number="70" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+<elements symbol="Lu" name="ルテチウム" number="71" 
+          group="3族" period="周期6" noid="ランタノイド"/>
+
+<elements symbol="Hf" name="ハフニウム" number="72" 
+          group="4族" period="周期6"/>
+<elements symbol="Ta" name="タンタル" number="73" 
+          group="5族" period="周期6"/>
+<elements symbol="W" name="タングステン" number="74" 
+          group="6族" period="周期6"/>
+<elements symbol="Re" name="レニウム" number="75" 
+          group="7族" period="周期6"/>
+<elements symbol="Os" name="オスミウム" number="76" 
+          group="8族" period="周期6"/>
+<elements symbol="Ir" name="イリジウム" number="77" 
+          group="9族" period="周期6"/>
+<elements symbol="Pt" name="白金" number="78" 
+          group="10族" period="周期6"/>
+<elements symbol="Au" name="金" number="79" 
+          group="11族" period="周期6"/>
+<elements symbol="Hg" name="水銀" number="80" 
+          group="12族" period="周期6"/>
+<elements symbol="Tl" name="タリウム" number="81" 
+          group="13族" period="周期6"/>
+<elements symbol="Pb" name="鉛" number="82" 
+          group="14族" period="周期6"/>
+<elements symbol="Bi" name="ビスマス" number="83" 
+          group="15族" period="周期6"/>
+<elements symbol="Po" name="ポロニウム" number="84" 
+          group="16族" period="周期6"/>
+<elements symbol="At" name="アスタチン" number="85" 
+          group="17族" period="周期6"/>
+<elements symbol="Rn" name="ラドン" number="86" 
+          group="18族" period="周期6"/>
+
+<elements symbol="Fr" name="フランシウム" number="87" 
+          group="1族" period="周期7"/>
+<elements symbol="Ra" name="ラジウム" number="88" 
+          group="2族" period="周期7"/>
+
+<elements symbol="Ac" name="アクチニウム" number="89" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Th" name="トリウム" number="90" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Pa" name="プロトアクチニウム" number="91" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="U" name="ウラン" number="92" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Np" name="ネプツニウム" number="93" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Pu" name="プルトニウム" number="94" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Am" name="アメリシウム" number="95" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Cm" name="キュリウム" number="96" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Bk" name="バークリウム" number="97" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Cf" name="カリホルニウム" number="98" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Es" name="アインスタニウム" number="99" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Fm" name="フェルミウム" number="100" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Md" name="メンデレビウム" number="101" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="No" name="ノーベリウム" number="102" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+<elements symbol="Lr" name="ローレンシウム" number="103" 
+          group="3族" period="周期7" noid="アクチノイド"/>
+
+<elements symbol="Rf" name="ラザホージウム" number="104" 
+          group="4族" period="周期7"/>
+<elements symbol="Db" name="ドブニウム" number="105" 
+          group="5族" period="周期7"/>
+<elements symbol="Sg" name="シーボーギウム" number="106" 
+          group="6族" period="周期7"/>
+<elements symbol="Bh" name="ボーリウム" number="107" 
+          group="7族" period="周期7"/>
+<elements symbol="Hs" name="ハッシウム" number="108" 
+          group="8族" period="周期7"/>
+<elements symbol="Mt" name="マイトネリウム" number="109" 
+          group="9族" period="周期7"/>
+<elements symbol="Ds" name="ダームスタチウム" number="110" 
+          group="10族" period="周期7"/>
+<elements symbol="Rg" name="レントゲニウム" number="111" 
+          group="11族" period="周期7"/>
+<elements symbol="Cn" name="コペルニシウム" number="112" 
+          group="12族" period="周期7"/>
+
+</periodicT>
